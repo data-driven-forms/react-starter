@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --env dev --config ./config/webpack.config.js --open --hot",
     "build": "webpack --env prod --config ./config/webpack.config.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test-ci": "jest && codecov"
   },
   "repository": {
     "type": "git",
