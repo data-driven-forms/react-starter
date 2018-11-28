@@ -22,6 +22,6 @@ deploy:
     on:
       branch: master
     script:
-    - yarn semantic-release --debug
+    - yarn semantic-release
     skip_cleanup: true
     
