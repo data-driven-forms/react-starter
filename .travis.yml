@@ -22,6 +22,6 @@ deploy:
     on:
       branch: master
     script:
-    - npm run semantic-release --debug
+    - yarn semantic-release --debug
     skip_cleanup: true
     
