@@ -13,10 +13,9 @@ script:
 cache:
   yarn: true
   directories:
-    - node_modules
+    - ~/.npm
 git:
   depth: 1
-
 deploy:
   - provider: script
     on:
@@ -24,4 +23,3 @@ deploy:
     script:
     - yarn semantic-release
     skip_cleanup: true
-    
